@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.75);
+    position: fixed;
+    justify-content: space-between;
+}
+
+.leftMenu {
+    font-size: 36px;
+    padding-left: 50px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+}
+
+.rightMenu {
+    display: flex;
+    font-size: 36px;
+    color: white;
+    padding-right: 50px;
+    padding-top: 45px;
+    padding-bottom: 50px;
+    font-family: Roboto;
+}
+
+.site {
+    background-image: url("./fone.png");
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.punct {
+    padding-right: 50px;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    font-size: 40px;
+    font-family: Roboto;
+    width: 570px;
+    padding: 100px 50px;
+    text-align: center;
+}
